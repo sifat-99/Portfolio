@@ -32,6 +32,12 @@ nav {
     padding: 15px 35px;
 }
 
+.btn-primary:hover {
+    cursor: pointer;
+    color: rgb(255, 162, 0);
+    background: rgb(55, 52, 52);
+}
+
 nav>ul {
     display: flex;
     align-items: center;
