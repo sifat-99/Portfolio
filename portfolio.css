@@ -1,42 +1,68 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
-.nav-title
-{
+
+.nav-title {
     color: #181818;
-font-family: Open Sans;
-font-size: 45px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-.F{
+
+.F {
     color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
-background: #FD6E0A;
-border: 0;
-font-size: 20px;
-color: white;
-font-weight: 700;
-padding: 15px 35px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    padding: 15px 35px;
 }
-nav>ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
-    color:#474747 ;
+    color: #474747;
+}
+
+/* header related */
+.header-class {
+    background-color: #FFF8F3;
+    ;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.pro-pic {
+    width: 200px;
+    height: 350px;
+/*     
+    flex-shrink: 0; */
 }
